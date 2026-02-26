@@ -45,12 +45,39 @@
 
 ---
 
+### Compte rendu — Remarques de l'étudiant Mehdi (26/02/2026)
+**Objectif** : Identifier les points de frustration et les besoins techniques concrets des étudiants.
+
+#### 1. Frustrations et Problèmes Techniques
+- **Accessibilité Mobile** : "On révise souvent dans les transports ou pendant les pauses, l'outil doit être fluide sur smartphone. Actuellement, certains formulaires sont illisibles sur petit écran."
+- **Instabilité des sessions** : Peur de perdre ses réponses en cas de micro-coupure internet ou si l'on change d'onglet par inadvertance.
+- **Temps Limité** : Besoin d'un compte à rebours visible pour ne pas se faire surprendre par la clôture automatique du test.
+
+#### 2. Clarté et Ergonomie
+- **Ambiguïté des questions** : "Parfois on ne sait pas si c'est une seule réponse possible ou plusieurs (Case à cocher vs Bouton radio)."
+- **Navigation** : Souhaite pouvoir revenir sur une question précédente avant la validation finale (possibilité de révision).
+
+---
+
+### Compte rendu — Remarques de l'étudiant Soufiane (26/02/2026)
+**Objectif** : Analyser les besoins en termes de motivation, de feedback et de suivi de progression.
+
+#### 1. Feedback et Apprentissage
+- **Correction Immédiate** : "Recevoir juste une note ne m'aide pas. Je veux voir tout de suite quelles questions j'ai ratées et pourquoi la bonne réponse était la bonne."
+- **Analyse par Compétence** : Besoin de voir ses points forts et faibles par objectif pédagogique.
+
+---
+
 ## Carte d’empathie
 L’analyse de l’utilisateur nous a permis de comprendre que les apprenants de Solicode ont besoin d’un outil simple pour valider leurs connaissances sans stress, tandis que les formateurs ont besoin d'une autonomie totale sur la création des tests.
 
-![Carte d'empathie - Formateur Youssef](images/carte_empathie_formateur_youssef_soliquiz.png)
+![Carte d'empathie - Formateur Youssef](images/carte-empathie-formateur-youssef-soliquiz.png)
 
-![Carte d'empathie - Formatrice Fatine](images/carte_empathie_formatrice_fatine_soliquiz.png)
+![Carte d'empathie - Formatrice Fatine](images/carte-empathie-formatrice-fatine-soliquiz.png)
+
+![Carte d'empathie - Étudiant Mehdi](images/carte-empathie-etudiant-mehdi-soliquiz.png)
+
+![Carte d'empathie - Étudiant Soufiane](images/carte-empathie-etudiant-soufiane-soliquiz.png)
 
 ## Définition du problème
 

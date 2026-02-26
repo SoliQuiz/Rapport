@@ -4,7 +4,7 @@
 
 |                                          |                                       |
 | :--------------------------------------: | :-----------------------------------: |
-| ![](imgs/solicode_logo.png){width=140px} | ![](imgs/ofppt-logo.png){width=140px} |
+| ![](images/solicode_logo.png){width=140px} | ![](images/ofppt-logo.png){width=140px} |
 
 <br><br>
 
