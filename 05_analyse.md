@@ -102,10 +102,18 @@ Le backlog a été organisé pour prioriser :
 3. L'automatisation de la remontée des scores vers SoliLMS pour éliminer la saisie manuelle.
 
 ## Diagramme de cas d’utilisation
-Le diagramme de cas d’utilisation de **SoliQuiz** illustre les fonctionnalités clés :
-- **Apprenant** (Synchronisé via SoliLMS) : Passer ses quiz quotidiens et consulter ses scores instantanés.
-- **Formateur** (Synchronisé via SoliLMS) : Créer des QCM par objectif et consulter les résultats automatisés.
-- **Système** : Assurer la synchronisation bidirectionnelle avec **SoliLMS** pour les utilisateurs et les notes.
+Les diagrammes de cas d’utilisation de **SoliQuiz** illustrent les fonctionnalités clés du système, organisées par sprints lors du développement :
+
+### Sprint 1 : MVP (Produit Minimum Viable)
+Le premier diagramme illustre les fonctions principales permettant à l'apprenant de passer ses quiz quotidiens et au formateur de créer des QCM avec synchronisation SoliLMS.
+
+![Diagramme de Cas d'Utilisation - Sprint 1 MVP](images/cas-utilisation-sprint-1-mvp.png)
+
+### Sprint 2 : Fonctionnalités Avancées
+Le diagramme suivant présente les fonctionnalités enrichies, y compris la gestion des objectifs pédagogiques et le suivi détaillé des performances.
+
+![Diagramme de Cas d'Utilisation - Sprint 2 Avancé](images/cas-utilisation-sprint-2-avance.png)
+
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
