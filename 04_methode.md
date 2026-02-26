@@ -5,6 +5,8 @@ La méthodologie Scrum est une méthodologie agile qui permet de gérer un proje
 
 Dans le cadre de ce projet SoliQuiz, nous avons organisé le travail selon les principes de Scrum, ce qui nous a permis de mieux planifier, suivre et livrer les différentes fonctionnalités de manière efficace.
 
+![Processus Scrum](images/scrum-process.jpg)
+
 **Principes clés**
 - **Transparence** : Toutes les tâches et objectifs sont visibles par l’équipe.
 - **Inspection** : Chaque sprint est évalué pour détecter les améliorations possibles.
@@ -30,6 +32,8 @@ Le projet est divisé en sprints, des cycles courts permettant de produire des f
 
 ## La méthode 2TUP
 ### Introduction
+
+![Le cycle 2TUP](images/2tup.png)
 La méthodologie 2TUP (Two-Tracks Unified Process) est un processus de développement logiciel qui s’appuie sur une structure en forme de Y. Elle propose de séparer puis de synchroniser deux dimensions essentielles d’un projet :
 - L’analyse fonctionnelle (ce que doit faire le système),
 - La conception technique (comment le réaliser).
@@ -46,12 +50,16 @@ Le 2TUP s’inscrit dans la continuité du Unified Process. Il repose sur quatre
 - **Branche technique** : Choix de l’architecture et des technologies.
 - **Phase de convergence** : Développement, tests et livraison.
 
+
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
 ## Design thinking
 ### Qu’est-ce que le Design Thinking ?
+
+![Les étapes du Design Thinking](images/design-thinking.png)
+
 C'est une méthode de résolution de problèmes centrée sur l’humain, qui consiste à comprendre en profondeur les besoins des utilisateurs afin de concevoir des solutions innovantes.
 
 ### Les cinq étapes
