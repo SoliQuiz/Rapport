@@ -2,42 +2,36 @@
 
 <br>
 
-| | |
-|:---:|:---:|
+|                                          |                                       |
+| :--------------------------------------: | :-----------------------------------: |
 | ![](imgs/solicode_logo.png){width=140px} | ![](imgs/ofppt-logo.png){width=140px} |
 
-<br><br><br>
+<br><br>
 
-**REPORT FINAL DE PROJET**
+**RAPPORT FINAL DE PROJET**
 
-
-<br>
-
-***
-
-<br>
+<br><br>
 
 **SoliQuiz**
-*L'app d'auto-évaluation pour les développeurs de Solicode*
+*L'application d'auto-évaluation pour les développeurs de Solicode*
 
 <br>
 
-***
+**Formation de développement Mobile – Mode Bootcamp**
+
+<br><br>
+
+|                    |                        |
+| :----------------- | ---------------------: |
+| **Présenté par :** | **Année Académique :** |
+| BENYEKHLEF Anouar  |            2025 - 2026 |
+| **Encadrant :**    |             **Lieu :** |
+| Mr. ESSARRAJ Fouad |          Tanger, Maroc |
 
 <br><br><br>
 
-| | |
-|:--- | ---:|
-| **Submitted by:** | **Academic Year:** |
-| **Soli-Devs26** | **2025 - 2026** |
-| | |
-| **Supervisor:** | **Location:** |
-| **Mr. Essarraj Fouad** | **Tangier, Morocco** |
-
-<br><br><br><br><br>
-
 **SOLICODE – Digital & IT Training Center**
-*www.solicode.co*
+*[www.solicode.co](http://www.solicode.co)*
 
 </div>
 
