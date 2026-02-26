@@ -48,6 +48,10 @@
 ## Carte d’empathie
 L’analyse de l’utilisateur nous a permis de comprendre que les apprenants de Solicode ont besoin d’un outil simple pour valider leurs connaissances sans stress, tandis que les formateurs ont besoin d'une autonomie totale sur la création des tests.
 
+![Carte d'empathie - Formateur Youssef](images/carte_empathie_formateur_youssef_soliquiz.png)
+
+![Carte d'empathie - Formatrice Fatine](images/carte_empathie_formatrice_fatine_soliquiz.png)
+
 ## Définition du problème
 
 Le problème majeur identifié est la lourdeur de la **saisie manuelle des notes** dans SoliLMS après chaque évaluation quotidienne. Le fait de devoir saisir les notes manuellement en SoliLMS après l'évaluation constitue le point critique : cela prend un temps considérable aux formateurs, génère des erreurs de saisie et retarde le suivi pédagogique. De plus, le manque d'un outil centralisé et interactif pour l'auto-évaluation quotidienne au sein du bootcamp empêche un suivi précis lié aux micro-objectifs de formation.
