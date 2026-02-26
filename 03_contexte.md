@@ -1,6 +1,6 @@
 # Contexte de projet
 
-Le projet consiste en la création de **SoliQuiz**, une plateforme d'auto-évaluation quotidienne dédiée au Centre Solicode. Contrairement aux méthodes traditionnelles, **SoliQuiz** est conçu pour être utilisé tous les jours afin de valider les micro-objectifs de formation. 
+Le projet consiste en la création de **SoliQuiz**, une plateforme d'auto-évaluation quotidienne dédiée au Centre Solicode. Développé en tant que **Projet fil rouge** au sein de Solicode, il est conçu pour être utilisé tous les jours afin de valider les micro-objectifs de formation, contrairement aux méthodes traditionnelles. 
 
 L'un des enjeux majeurs est de résoudre la problématique de la **saisie manuelle des notes**. Grâce à une connexion directe avec **SoliLMS**, l'application récupère automatiquement les listes des apprenants et des formateurs, puis renvoie directement les scores obtenus. Cela élimine les erreurs de saisie et permet un suivi en temps réel de la progression de chaque étudiant.
 
