@@ -2,69 +2,13 @@
 
 ## Interviews d'empathie
 
-### Compte rendu — Remarques du formateur Youssef (19/02/2026)
-**Objectif** : Recueillir les besoins liés à la gestion des QCM afin d’évaluer les connaissances des apprenants.
+### Synthèse des entretiens
 
-#### 1. Organisation des QCM
-- Chaque session doit avoir son propre **QCM**.
-- Il ne faut pas créer un QCM global pour tout le module.
-- Chaque objectif doit également avoir son propre **QCM**.
+Afin de cerner au mieux les attentes liées à la gestion des évaluations, nous avons mené des entretiens d'empathie avec les différents acteurs (formateurs, étudiants, administrateur). Voici les principaux constats et besoins qui en ressortent :
 
-#### 2. Liaison avec les professeurs
-- Le QCM doit être lié au professeur.
-- Les professeurs doivent avoir accès aux :
-  - **Questions** (ajout des questions)
-  - **Choix** (ajout des choix)
-  - **Réponses** (affichage des réponses)
-
-#### 3. Correction et calcul des résultats
-- Le calcul des résultats doit être effectué automatiquement par le système.
-- Le système doit calculer le score par objectif.
-
----
-
-### Compte rendu — Remarques de la formatrice Fatine (19/02/2026)
-**Objectif** : Recueillir les besoins liés à la gestion des QCM.
-
-#### 1. Création et organisation des QCM
-- Les formateurs doivent pouvoir créer des **QCM** facilement.
-- Chaque QCM doit contenir :
-  - **Questions** (ajout, modification et suppression)
-  - **Choix multiples** pour chaque question.
-  - Définition de la ou des **bonnes réponses**.
-  - Choix du **nombre de questions** dans le QCM.
-  - Définition du **nombre de réponses** possibles par question.
-
-#### 2. Fonctionnalités attendues
-- L’application doit permettre une gestion simple et rapide.
-- Elle doit offrir une interface claire et intuitive avec une flexibilité dans le nombre de choix.
-
-#### 3. Correction et calcul des résultats
-- Le calcul des résultats doit être automatique.
-- Le système doit calculer le score total et l'afficher à l’étudiant.
-
----
-
-### Compte rendu — Remarques de l'étudiant Mehdi (26/02/2026)
-**Objectif** : Identifier les points de frustration et les besoins techniques concrets des étudiants.
-
-#### 1. Frustrations et Problèmes Techniques
-- **Accessibilité Mobile** : "On révise souvent dans les transports ou pendant les pauses, l'outil doit être fluide sur smartphone. Actuellement, certains formulaires sont illisibles sur petit écran."
-- **Instabilité des sessions** : Peur de perdre ses réponses en cas de micro-coupure internet ou si l'on change d'onglet par inadvertance.
-- **Temps Limité** : Besoin d'un compte à rebours visible pour ne pas se faire surprendre par la clôture automatique du test.
-
-#### 2. Clarté et Ergonomie
-- **Ambiguïté des questions** : "Parfois on ne sait pas si c'est une seule réponse possible ou plusieurs (Case à cocher vs Bouton radio)."
-- **Navigation** : Souhaite pouvoir revenir sur une question précédente avant la validation finale (possibilité de révision).
-
----
-
-### Compte rendu — Remarques de l'étudiant Soufiane (26/02/2026)
-**Objectif** : Analyser les besoins en termes de motivation, de feedback et de suivi de progression.
-
-#### 1. Feedback et Apprentissage
-- **Correction Immédiate** : "Recevoir juste une note ne m'aide pas. Je veux voir tout de suite quelles questions j'ai ratées et pourquoi la bonne réponse était la bonne."
-- **Analyse par Compétence** : Besoin de voir ses points forts et faibles par objectif pédagogique.
+- **Les Formateurs (Youssef & Fatine)** : Ils subissent une perte de temps considérable liée à la double saisie des notes et d'un manque de centralisation (utilisation de Google Forms vs SoliLMS). Leurs besoins majeurs sont : la création simple de QCM personnalisés, une gestion par objectif pédagogique et une automatisation du calcul et de la remontée des notes.
+- **Les Étudiants (Mehdi & Soufiane)** : Ils sont frustrés par l'ergonomie (illisible sur mobile) et l'absence de feedback immédiat sur leurs erreurs. Ils réclament une interface "mobile-first" rassurante (sauvegarde en temps réel), une gestion claire du temps, et surtout, l'affichage immédiat des corrections avec un suivi précis de leurs compétences par objectif.
+- **L'Administrateur (Fouad)** : Il pointe du doigt la lourdeur administrative, la multiplication d'outils non officiels et le manque de transparence vers la direction. Ses besoins principaux incluent un tableau de bord global, une gestion unifiée des utilisateurs, et l'intégration totale des notes vers le système SoliLMS via API.
 
 ---
 
@@ -78,6 +22,8 @@ L’analyse de l’utilisateur nous a permis de comprendre que les apprenants de
 ![Carte d'empathie - Étudiant Mehdi](images/carte-empathie-etudiant-mehdi-soliquiz.png)
 
 ![Carte d'empathie - Étudiant Soufiane](images/carte-empathie-etudiant-soufiane-soliquiz.png)
+
+![Carte d'empathie - Administrateur Fouad](images/carte-empathie-admin-fouad.png)
 
 ## Définition du problème
 
@@ -113,6 +59,11 @@ Le premier diagramme illustre les fonctions principales permettant à l'apprenan
 Le diagramme suivant présente les fonctionnalités enrichies, y compris la gestion des objectifs pédagogiques et le suivi détaillé des performances.
 
 ![Diagramme de Cas d'Utilisation - Sprint 2 Avancé](images/cas-utilisation-sprint-2-avance.png)
+
+### Couverture Globale
+Le diagramme suivant présente la vue d'ensemble du système, illustrant toutes les interactions des acteurs avec l'application.
+
+![Diagramme de Cas d'Utilisation - Global](images/cas-utilisation-global.png)
 
 
 ```{=openxml}

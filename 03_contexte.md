@@ -1,22 +1,92 @@
-# Contexte de projet
+# Cahier des Charges - SoliQuiz
 
-Le projet consiste en la création de **SoliQuiz**, une plateforme d'auto-évaluation quotidienne dédiée au Centre Solicode. Développé en tant que **Projet fil rouge** au sein de Solicode, il est conçu pour être utilisé tous les jours afin de valider les micro-objectifs de formation, contrairement aux méthodes traditionnelles. 
+## 1. Présentation du projet
 
-L'un des enjeux majeurs est de résoudre la problématique de la **saisie manuelle des notes**. Grâce à une connexion directe avec **SoliLMS**, l'application récupère automatiquement les listes des apprenants et des formateurs, puis renvoie directement les scores obtenus. Cela élimine les erreurs de saisie et permet un suivi en temps réel de la progression de chaque étudiant.
+**Nom du projet :** SoliQuiz  
+**Type de projet :** Application web d'auto-évaluation et de création de QCM (Questionnaires à Choix Multiples).  
+**Bénéficiaire :** Bootcamp / Centre de formation (Formateurs, Étudiants et Administration).  
 
-**SoliQuiz** vise à digitaliser le processus d'évaluation des compétences des apprenants, en leur offrant un outil intuitif pour mesurer leur progression. Il s'inscrit dans un contexte de transformation digitale au Maroc, où l'accès à la formation inclusive est essentiel pour lutter contre le chômage des jeunes et favoriser l'innovation technologique.
+SoliQuiz est une plateforme pédagogique centralisée permettant la création, le passage et l'analyse de QCM. Son but est d'évaluer de manière granulaire l'acquisition des compétences sur des micro-objectifs d'apprentissage.
 
-## Objectif de SoliQuiz
-L'objectif principal est de fournir une solution robuste pour l'évaluation régulière (quotidienne), permettant une synchronisation fluide des données avec l'écosystème Solicode (SoliLMS) et automatisant le calcul des résultats par objectif pédagogique.
+---
 
-## Cahier des charges
-Le projet doit répondre aux besoins suivants :
-- Gestion des utilisateurs (Apprenants et Administrateurs).
-- Création et gestion de catégories de quiz.
-- Gestion des questions et des réponses.
-- Interface de passage de quiz fluide.
-- Tableau de bord des résultats.
-- API pour l'intégration mobile.
+## 2. Contexte et Problématique
+
+Actuellement, les formateurs utilisent des solutions tierces génériques (comme Google Forms) pour évaluer quotidiennement les apprenants.
+Cette approche engendre de nombreuses difficultés :
+- **Perte de temps logistique** : Les formateurs doivent ressaisir manuellement les notes de Google Forms vers la plateforme centrale, SoliLMS.
+- **Rupture pédagogique** : Manque d'intégration directe entre les QCM, les sessions de cours spécifiques, et les micro-objectifs (SoliLMS).
+- **Insatisfaction des étudiants** : Interfaces non adaptées au mobile, feedback "sec" sans explication (un simple score type "12/20"), risque de perte des données en cas de déconnexion.
+- **Gestion asymétrique** : La direction pédagogique ne possède pas de vue globale standardisée permettant de piloter facilement et en temps réel le taux de réussite global des cohortes.
+
+---
+
+## 3. Objectifs du projet
+
+*   **Remplacer Google Forms** par un outil interne adapté 100% au besoin de la formation.
+*   **Automatiser les flux d'évaluation** : De la création de QCM au calcul du score final.
+*   **Granulométrie du suivi** : Lier chaque QCM et chaque question à un objectif / micro-objectif précis.
+*   **Améliorer l'expérience utilisateur** (UX/UI) : Rendre le système agréable, pertinent pour les formateurs, et "stress-free" (auto-sauvegarde, mobile-first, timer) pour les étudiants.
+*   **Centraliser et exporter les données** : Produire une API pour la synchronisation des notes directement dans SoliLMS, et offrir des tableaux de bord.
+
+---
+
+## 4. Les Acteurs (Profils Utilisateurs)
+
+Trois types d'utilisateurs distincts interagiront avec l'application :
+
+1.  **L'Étudiant (Apprenti) :**
+    *   *But principal :* Passer les QCM quotidiennement, consulter ses notes et suivre sa propre progression.
+    *   *Besoins clés :* Une interface claire (mobile ou PC), une sauvegarde continue pour éviter de perdre le travail, des explications (feedback) après validation des réponses.
+2.  **Le Formateur :**
+    *   *But principal :* Evaluer l'état d'acquisition des connaissances des étudiants pour une session donnée.
+    *   *Besoins clés :* Création facile des QCM, associer les QCM à des sessions et des objectifs précis, tableau de bord des résultats de sa classe, calcul automatique des scores.
+3.  **L'Administrateur (Direction Pédagogique) :**
+    *   *But principal :* Superviser le centre et gérer le système technique de base.
+    *   *Besoins clés :* Affecter les rôles et permissions, avoir une vue globale (Dashboard global), préparer la bascule des données vers le SoliLMS centralisé.
+
+---
+
+## 5. Exigences Fonctionnelles (Découpage Agile)
+
+Le développement sera réalisé de manière itérative, organisé en 2 Sprints majeurs.
+
+### 5.1. Sprint 1 : MVP (Minimum Viable Product - Le cœur)
+**Focus :** Permettre le cycle vital "Créer -> Passer -> Noter" un QCM.
+*   **Authentification basique** et gestion simple des rôles (Admin/Formateur/Étudiant).
+*   **CRUD des QCM** par les formateurs (Titre, Description).
+*   **Gestion des questions/choix** (Création des questions, options de réponse multiples/uniques, définition des bonnes réponses).
+*   **Passation du test** par les étudiants.
+*   **Calcul automatique global** du score dès la soumission.
+
+### 5.2. Sprint 2 : Fonctionnalités Avancées (Pédagogie & Analyse)
+**Focus :** Granularité pédagogique, analytique et expérience utilisateur avancée.
+*   **Liaison Sessions / Objectifs** : Les QCM sont rattachés à des objectifs pédagogiques précis.
+*   **Statistiques et KPIs granulaires** : Calcul et affichage du score ventilé par objectif (pour les étudiants et le formateur).
+*   **Feedback détaillé** : Affichage des bonnes réponses et d'une explication justifiée ("Pourquoi cette réponse ?") à l'étudiant.
+*   **Améliorations UX pour le test** : Mise en place d'un *Compte à rebours (Timer)* et d'un système *d'auto-sauvegarde (Brouillon en temps réel)* des réponses en cours.
+*   **Tableau de bord Global** : Interface de statistiques globales pour l'administrateur.
+*   **API & Interopérabilité** : Point de terminaison (endpoint / synchronisation) pour faire remonter officiellement les résultats vers **SoliLMS**.
+
+---
+
+## 6. Exigences Non-Fonctionnelles
+
+*   **Responsive Design / Mobile-First :** Extrême importance soulevée par les étudiants (révisions dans les transports). L'interface de passation des tests doit être irréprochable sur smartphone.
+*   **Performance et Résilience :** Tolérance à la perte temporaire du réseau côté étudiant (via l'auto-sauvegarde en localStorage par exemple ou sauvegardes API fréquentes).
+*   **Ergonomie UI :** Différenciation extrêmement stricte et intuitive visuellement entre une question à choix unique (Boutons Radio) et à choix multiples (Cases à cocher).
+*   **Sécurité :** Les QCM ne doivent être accessibles qu'aux étudiants autorisés (via authentification).
+*   **Hébergement & Déploiement :** À définir (Cloud interne, VPS, etc.).
+
+---
+
+## 7. Critères d'Acceptation (Définition de fini - DoD)
+
+Pour qu'un Sprint soit considéré comme terminé, les fonctionnalités doivent respecter ces critères :
+1.  Le code est revu, testé et intégré dans le dépôt Git principal.
+2.  L'étudiant peut passer un QCM complexe de bout en bout sans blocage sur son appareil mobile.
+3.  Le temps des formateurs pour créer, faire passer un QCM et obtenir un résultat est mesuré et divisé par deux par rapport à l'ancien processus Google Forms.
+4.  Les notes générées sont exactes à 100%.
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
