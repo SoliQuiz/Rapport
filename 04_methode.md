@@ -63,7 +63,7 @@ C'est une méthode de résolution de problèmes centrée sur l’humain, qui con
 
 ### Les cinq étapes
 1. **Empathie** : Comprendre l'utilisateur (formateurs de Solicode).
-2. **Définition** : Formuler un problème clair (Comment faciliter l'auto-évaluation ?).
+2. **Définition** : Formuler un problème clair (Comment éliminer l'aveuglement pédagogique pour assurer un feedback précis et en temps réel ?).
 3. **Idéation** : Générer un maximum d'idées.
 4. **Prototype** : Création de maquettes simplifiées.
 5. **Test** : Recueillir les avis des utilisateurs pour affiner la solution.

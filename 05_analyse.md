@@ -27,17 +27,16 @@ L’analyse de l’utilisateur nous a permis de comprendre que les apprenants de
 
 ## Définition du problème
 
-Le problème majeur identifié est la lourdeur de la **saisie manuelle des notes** dans SoliLMS après chaque évaluation quotidienne. Le fait de devoir saisir les notes manuellement en SoliLMS après l'évaluation constitue le point critique : cela prend un temps considérable aux formateurs, génère des erreurs de saisie et retarde le suivi pédagogique. De plus, le manque d'un outil centralisé et interactif pour l'auto-évaluation quotidienne au sein du bootcamp empêche un suivi précis lié aux micro-objectifs de formation.
+Le problème central identifié lors de la phase d'empathie est **l'aveuglement pédagogique** provoqué par l'utilisation d'outils d'évaluation génériques et non intégrés (Google Forms, fichiers Excel disparates). Actuellement, les formateurs et les apprenants ne disposent d'aucune visibilité en temps réel sur l'acquisition des compétences, car les résultats des tests sont fournis sous forme de scores globaux déconnectés des objectifs pédagogiques précis du bootcamp.
 
-### Problèmes secondaires
+### Impacts et problèmes secondaires
 
-Actuellement, les QCM sont réalisés via Google Forms, ce qui ne répond plus aux besoins pédagogiques des formateurs. Après la phase d’empathie menée avec les formateurs, plusieurs limites ont été identifiées :
+Cette situation engendre une série de difficultés critiques qui freinent la progression des étudiants :
 
-* **Absence de liaison structurée** entre les QCM, les sessions, les modules et les objectifs pédagogiques.
-* **Difficulté à attribuer un QCM spécifique** à chaque session et à chaque objectif.
-* **Manque de centralisation** : les professeurs ne disposent pas d’un espace unique pour gérer leurs QCM.
-* **Absence d’un calcul automatique détaillé** des scores par objectif.
-* **Difficulté de suivi clair** des résultats des étudiants, empêchant un feedback pédagogique immédiat.
+*   **Invisibilité des lacunes spécifiques** : L’incapacité technique d'associer chaque question à un micro-objectif empêche les formateurs d'identifier précisément quelle notion n’a pas été comprise pour adapter leur cours du lendemain.
+*   **Stagnation de l'apprentissage par manque de feedback** : Les étudiants reçoivent des notes "sèches" sans explications ni analyse de leurs erreurs, ce qui les laisse dans le flou quant aux axes d'amélioration à travailler.
+*   **Rupture de la continuité administrative** : L'absence de synchronisation avec SoliLMS oblige les formateurs à un report manuel des notes, une tâche répétitive et chronophage qui retarde le suivi officiel et multiplie les risques d'erreurs de saisie.
+*   **Fragmentation de l'expérience utilisateur** : La multiplication d'outils "non-officiels" et l'absence d'une interface adaptée (notamment sur mobile) génèrent une frustration technique et une baisse de l'engagement des apprenants lors des évaluations quotidiennes.
 
 
 

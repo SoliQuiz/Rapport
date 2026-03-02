@@ -12,12 +12,14 @@ SoliQuiz est une plateforme pédagogique centralisée permettant la création, l
 
 ## 2. Contexte et Problématique
 
-Actuellement, les formateurs utilisent des solutions tierces génériques (comme Google Forms) pour évaluer quotidiennement les apprenants.
-Cette approche engendre de nombreuses difficultés :
-- **Perte de temps logistique** : Les formateurs doivent ressaisir manuellement les notes de Google Forms vers la plateforme centrale, SoliLMS.
-- **Rupture pédagogique** : Manque d'intégration directe entre les QCM, les sessions de cours spécifiques, et les micro-objectifs (SoliLMS).
-- **Insatisfaction des étudiants** : Interfaces non adaptées au mobile, feedback "sec" sans explication (un simple score type "12/20"), risque de perte des données en cas de déconnexion.
-- **Gestion asymétrique** : La direction pédagogique ne possède pas de vue globale standardisée permettant de piloter facilement et en temps réel le taux de réussite global des cohortes.
+Actuellement, les formateurs du bootcamp s'appuient sur des solutions tierces génériques (Google Forms, fichiers Excel) pour évaluer quotidiennement l'acquisition des connaissances. 
+
+Cette approche génère un état d'**aveuglement pédagogique** caractérisé par plusieurs points critiques :
+- **Invisibilité des lacunes** : L'impossibilité technique de lier chaque question à un micro-objectif précis empêche les formateurs d'identifier les notions non comprises en temps réel.
+- **Rupture de la continuité administrative** : L'absence de synchronisation avec SoliLMS impose un report manuel des notes, une tâche chronophage et source d'erreurs.
+- **Feedback insuffisant** : Les étudiants reçoivent des scores globaux "secs" sans analyse de leurs erreurs, ce qui freine leur progression.
+- **Expérience utilisateur fragmentée** : La multiplication d'outils non officiels et l'absence d'interface mobile-first nuisent à l'engagement des apprenants.
+- **Pilotage aveugle** : La direction pédagogique ne dispose d'aucune vue globale standardisée pour piloter le taux de réussite des cohortes.
 
 ---
 
