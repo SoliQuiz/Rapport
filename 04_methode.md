@@ -17,11 +17,10 @@ Le projet est divisé en sprints, des cycles courts permettant de produire des f
   - Définition des besoins fonctionnels de SoliQuiz.
   - Mise en place des maquettes et architecture du projet.
   - Création des premières pages (ex. page d’accueil, gestion des utilisateurs).
-- **Sprint 2 : Développement et tests**
   - Implémentation des fonctionnalités principales (CRUD des quiz, questions, catégories).
   - Tests unitaires et correction des bugs.
   - Ajustements selon le feedback de l’équipe.
-- **Sprint 3 : Finalisation et optimisation**
+- **Sprint 2 : Développement et tests**
   - Intégration des fonctionnalités avancées (résultats en temps réel, API).
   - Optimisation de la performance et du design.
   - Préparation pour le déploiement.
